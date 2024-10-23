@@ -1,0 +1,79 @@
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+header {
+  background-color: pink;
+  color: black;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+h1, h2 {
+  color: blue;
+}
+
+.anime-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+.anime-item {
+  width: 200px;
+  text-align: center;
+}
+
+.anime-item img {
+  width: 100%;
+}
+
+footer {
+  background-color: pink;
+  color: black;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Style for the title section */
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.circular-image {
+  width: 100px; /* Adjust the size of the image */
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 15px; /* Space between image and title */
+}
+
+h1 {
+  font-size: 2rem;
+  color: purple;
+}
